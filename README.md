@@ -1,4 +1,4 @@
-Nginx container that with environment dependent configuration
+Nginx container with environment dependent configuration
 
 It accepts runtime environment variable ENVIRON,
 

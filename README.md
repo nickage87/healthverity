@@ -1,4 +1,4 @@
-Nginx container that with environment dependent configuration
+Nginx container with environment dependent configuration
 
 It accepts runtime environment variable ENVIRON,
 
@@ -7,7 +7,7 @@ Example:
 docker run -it -d -p 8088:80 -e ENVIRON={prod,dev} \
   healthverity:release-0.2
 
-Send container logs to cloudwatch:
+To send container logs to cloudwatch:
 
 docker run -it -d -p 8088:80 -e ENVIRON={prod,dev} \
   --log-driver=awslogs \
